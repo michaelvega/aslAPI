@@ -13,7 +13,7 @@ import time
 
 def DetectSingleFrame(incoming_data):
     detector = HandDetector(maxHands=1)
-    classifier = Classifier("./lib/modelalpha-2/keras_model.h5", "./lib/modelalpha-2/labels.txt")
+    classifier = Classifier("lib/modelAlpha-2/keras_model.h5", "lib/modelAlpha-2/labels.txt")
 
     offset = 20
     imgSize = 300
